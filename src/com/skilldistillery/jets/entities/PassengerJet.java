@@ -1,17 +1,12 @@
 package com.skilldistillery.jets.entities;
 
-public class CargoPlane  extends Jet implements LoadCargo {
+public class PassengerJet extends Jet{
 
-	
-	public CargoPlane(String model, int speedMPH, int range, long price) {
+	public PassengerJet(String model, int speedMPH, int range, long price) {
 		super(model, speedMPH, range, price);
 		// TODO Auto-generated constructor stub
 	}
 
-	public void loadCargo() {
-		
-		System.out.println(this.toString() + "\n Please wait, cargo load in progress! ");
-	}
 
 	public void fly() {
 		System.out.printf(
@@ -20,4 +15,5 @@ public class CargoPlane  extends Jet implements LoadCargo {
 						flightTime());
 
 }
+
 }

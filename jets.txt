@@ -1,1 +1,5 @@
-Corvette-class Frigate, 
+FighterJet,3770,1950,215000
+SpyJet,9000,6090,70000000
+CargoPlane,1800,3500,500000
+UnmannedJet,7300,7500,20000000
+PassengerJet,2000,5600,400000
